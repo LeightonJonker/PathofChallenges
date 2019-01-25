@@ -1,0 +1,27 @@
+.test{
+    color: crimson;
+    text-align: center;
+
+}
+
+.dropdown{
+    color: rgb(6, 131, 241);
+    /* : 'btn btn-primary btn-block'; */
+    text-align: center;
+}
+
+.ulitem{
+    /* class: list-group; */
+    color: crimson
+}
+
+.liitem{
+    /* class: list-group-item; */
+    color: crimson
+}
+
+.but{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

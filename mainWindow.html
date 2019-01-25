@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <script>window.$ = window.jQuery = require('jquery');</script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./mainWindow.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Path of Challenges</title>
+   
+     <!-- <script>
+         
+             $(document).ready(function(){
+               $("button").click(function(){
+                 $("a").addClass("");
+               });
+             });
+    </script>  -->
+
+</head>
+<body>
+  <nav>
+      <div class="nav-justify-content-center bg-light">
+         <h1 class="text-primary display-4 text-center">Path of Challenges: Betrayal</h1>
+     
+      <h5 class="test">
+        Welcome to Path of Challenges, the Path of Exile helper program aimed at helping Exiles complete league challenges.
+      </h5>
+      <br>
+    </div>
+    </nav>
+
+    <ul>
+    </ul>
+
+    <!-- <button>Change button</button> -->
+<!-- 
+        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+               Challenge 1:
+        </button>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Kill stuff
+        </div>
+      </div>
+      
+      <button class="btn btn-primary btn-block " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
+            Challenge 2:
+      </button>
+   <div class="collapse" id="collapseExample2">
+     <div class="card card-body">
+         Kill stuff
+     </div>
+    </div> -->
+ 
+    <!-- ////// TEST FOR DYNAMIC  -->
+ 
+    <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Challenge #1
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Here will be the challenge description, requirements, tips and other etc                </div>
+              </div>
+            </div>
+            <!-- ///// -->
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Challenge #2
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Here will be the challenge description, requirements, tips and other etc                </div>
+              </div>
+            </div>
+            <!-- //////// -->
+            <div class="card template">
+              <div class="card-header aa" id="headingThree">
+                <h5 class="mb-0"> 
+                  <button class="btn btn-link collapsed bb" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Challenge #3
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse qq" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Here will be the challenge description, requirements, tips and other etc                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-add-card">
+              Add new Challenge
+          </button>
+
+          <!-- /////// TEST FOR DYNAMIC -->
+
+    <script>
+
+
+        const electron = require('electron');
+        const {ipcRenderer} = electron;
+        ul = document.querySelector('ul');
+
+
+////////////////////////////////test
+var $template = $(".template");
+
+var hash = 3;
+var test = 1;
+$(".btn-add-card").on("click", function () {
+    console.log("hash start:" + hash);
+    var $newCard = $template.clone();
+    $newCard.find(".aa").attr("id", "heading" + (++hash));
+   console.log($newCard.find(".aa").attr("id"));
+    $newCard.find(".qq").attr("id", "collapse" + (hash));
+    $newCard.find(".qq").attr("aria-labelledby", "heading" + (hash));
+    $newCard.find(".bb").attr("data-target",  "#collapse" + (hash)).text("Challenge #" + hash);
+    $newCard.find(".bb").attr("aria-controls", "collapse"+ (hash));
+    $newCard.find(".card-body").text("Here will be the challenge description, requirements, tips and other etc.")
+    $("#accordionExample").append($newCard.fadeIn());
+    console.log("hash end:" + hash);
+
+});
+
+
+/////////////////////////////////////
+
+        // Add an item (challenge)
+        ipcRenderer.on('item:add', function(e, item){ // add a button and some divs? have the button able to collapse stuff and open stuff
+           // ul.className = 'list-group';
+            ul.className = 'ulitem';
+            //const li = document.createElement('li');
+            const li = document.createElement('button');
+            //li.className = 'list-group-item';
+            li.className = 'liitem';
+            const itemText = document.createTextNode(item);
+            li.appendChild(itemText);
+            ul.appendChild(li);
+
+
+        });
+
+        // clear items (challenges)
+        ipcRenderer.on('item:clear', function(){
+            ul.innerHTML = '';
+            ul.className = '';
+            a.className = '';
+
+        });
+
+        //remove individual
+        ul.addEventListener('dblclick', removeItem);
+        //a.addEventListener('contextmenu', removeItem);
+        //div.addEventListener('dblclick', removeItem);
+
+
+
+        function removeItem(e){
+            e.target.remove();
+            if(ul.children.length == 0){
+                ul.className = '';
+            }
+            if (a.children.length == 0){
+                a.className = '';
+            }
+        }
+    
+    </script>
+
+</body>
+</html>

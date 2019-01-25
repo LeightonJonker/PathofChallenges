@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <title >Add Challenge</title>
+</head>
+<body>
+  <div class = "container">
+    <form>
+        <div>
+            <label class = "text-primary" >Add in a Challenge.</label>
+            <input  class = ".bg-light" type="text" id="item" autofocus>
+
+        </div>
+        <br>
+        <button class = "btn btn-primary" type="submit">Add Challenge</button>
+    </form>
+</div>
+<script>
+    const electron = require('electron');
+    const {ipcRenderer} = electron;
+    const form = document.querySelector('form');
+    form.addEventListener('submit', submitForm);
+
+
+    function submitForm(e){
+        e.preventDefault();
+        console.log(123);
+        const item = document.querySelector('#item').value;
+        ipcRenderer.send('item:add', item);
+    }
+</script>
+    
+</body>
+</html>
