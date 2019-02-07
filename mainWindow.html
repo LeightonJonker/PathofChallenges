@@ -59,9 +59,9 @@
     </div> -->
  
     <!-- ////// TEST FOR DYNAMIC  -->
- 
+    <p id="demo"></p>
     <div class="accordion" id="accordionExample">
-            <div class="card">
+            <!-- <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -75,7 +75,7 @@
                   Here will be the challenge description, requirements, tips and other etc                </div>
               </div>
             </div>
-            <!-- ///// -->
+            
             <div class="card">
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
@@ -88,19 +88,20 @@
                 <div class="card-body">
                   Here will be the challenge description, requirements, tips and other etc                </div>
               </div>
-            </div>
+            </div> -->
             <!-- //////// -->
             <div class="card template">
               <div class="card-header aa" id="headingThree">
                 <h5 class="mb-0"> 
                   <button class="btn btn-link collapsed bb" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Challenge #3
+                    Challenge #1
                   </button>
                 </h5>
               </div>
               <div id="collapseThree" class="collapse qq" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                  Here will be the challenge description, requirements, tips and other etc                </div>
+                  Here will be the challenge description, requirements, tips and other etc.            
+                </div>
               </div>
             </div>
           </div>
@@ -119,12 +120,33 @@
         ul = document.querySelector('ul');
 
 
-////////////////////////////////test
+
+//////////////////XML Reading
+
+var client = new XMLHttpRequest();
+var XMLResponse;
+
+client.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200){
+    ReadXML(this);
+  }
+}
+client.open('GET', 'Challenges.xml', true);
+client.send();
+
+function ReadXML(xml){
+  XMLResponse = xml.responseXML;
+  document.getElementById("demo").innerHTML = XMLResponse.getElementsByTagName("objective")[0].childNodes[0].nodeValue;
+}
+
+////////////////////////////XML Reading end
+
+////////////////////////////////Creating Accordian sections
 var $template = $(".template");
 
-var hash = 3;
-var test = 1;
-$(".btn-add-card").on("click", function () {
+var hash = 1;
+while (hash < 10){
+//$(".btn-add-card").on("click", function () {
     console.log("hash start:" + hash);
     var $newCard = $template.clone();
     $newCard.find(".aa").attr("id", "heading" + (++hash));
@@ -136,8 +158,8 @@ $(".btn-add-card").on("click", function () {
     $newCard.find(".card-body").text("Here will be the challenge description, requirements, tips and other etc.")
     $("#accordionExample").append($newCard.fadeIn());
     console.log("hash end:" + hash);
-
-});
+}
+//});
 
 
 /////////////////////////////////////

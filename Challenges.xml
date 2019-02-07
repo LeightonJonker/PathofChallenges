@@ -1,0 +1,66 @@
+<ChallengeList> 
+
+   <challenge> 
+       <title lang="en">Challenge 1</title> 
+       <Description>Monsters Killing</Description> 
+       <objective>kill 100 monsters</objective> 
+       <tips>Use skills to kill monsters faster</tips>
+    </challenge>
+
+   <challenge> 
+       <title lang="en">Challenge 2</title> 
+       <Description>Giada De Laurentiis</Description> 
+        <tips>Use skills to kill monsters faster or not</tips> 
+    </challenge> 
+
+     <challenge> 
+       <title lang="en">Challenge 3</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge> 
+
+     <challenge> 
+       <title lang="en">Challenge 4</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+
+      <challenge> 
+       <title lang="en">Challenge 5</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 6</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 7</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 8</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 9</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 10</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 11</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+     <challenge> 
+       <title lang="en">Challenge 12</title> 
+       <Description>Giada De Laurentiis</Description>  
+    </challenge>
+    
+</ChallengeList>
