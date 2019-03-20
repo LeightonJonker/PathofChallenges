@@ -6,7 +6,7 @@ const path = require ('path');
 const {app, BrowserWindow, Menu, ipcMain} = electron;
 
 // process environment
-// process.env.NODE_ENV = 'production';
+//  process.env.NODE_ENV = 'production';
 
 let mainWindow;
 let addWindow;
@@ -17,6 +17,7 @@ app.on('ready', function(){
     mainWindow = new BrowserWindow({
         show: false
     });
+    mainWindow.setIcon('assets/icons/win/PoCIcon.png');
     // load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, "mainWindow.html"),
@@ -43,7 +44,7 @@ function createAddWindow(){
     // make window
     addWindow = new BrowserWindow({
         width: 350,
-        height: 200,
+        height: 400,
         title: 'Add Challenge'
     });
     // load html into window
@@ -74,18 +75,18 @@ const mainMenuTemplate = [
     {
         label: 'File',
         submenu:[
-            {
-                label: "Add Challenge",
-                click(){
-                    createAddWindow();
-                }
-            },
-            {
-                label: "Clear Challenges",
-                click(){
-                    mainWindow.webContents.send('item:clear');
-                }
-            },
+            // {
+            //     label: "Add Challenge",
+            //     click(){
+            //         createAddWindow();
+            //     }
+            // },
+            // {
+            //     label: "Clear Challenges",
+            //     click(){
+            //         mainWindow.webContents.send('item:clear');
+            //     }
+            // },
             {
                 label: "Quit",
                 accelerator: process.platform == 'darwin'? 'Command+Q':

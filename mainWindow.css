@@ -1,27 +1,106 @@
-.test{
-    color: crimson;
-    text-align: center;
+@font-face { font-family: Fontin; src: url('fonts/Fontin-Regular.ttf'); } 
+@font-face { font-family: FontinBold; src: url('fonts/Fontin-Bold.ttf'); } 
 
+html{background-color: #181818 !important; font-family: 'Fontin', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+body{background-color: #181818 !important; font-family: 'Fontin', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.subTitle{
+    color: #CAC2A8;
+    text-align: center;
+    background-color: #181818;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
 .dropdown{
-    color: rgb(6, 131, 241);
-    /* : 'btn btn-primary btn-block'; */
+    color: #A38D6D;
     text-align: center;
+    background-color: #181818 !important;
 }
 
 .ulitem{
-    /* class: list-group; */
-    color: crimson
+    color: #A38D6D;
+}
+
+.MainTitle{
+    color: #A38D6D;
+    background: #181818;
+}
+
+.BScol{
+    background-color: #181818 !important;
+    color: #A38D6D !important;
+}
+
+.bb{
+    font-weight: bold !important;
+    font-size: 19px !important;
+}
+
+.BScol2{
+    background-color: #222 !important;
+    color: #CAC2A8 !important;
+    border: #444 !important;
 }
 
 .liitem{
     /* class: list-group-item; */
-    color: crimson
+    color: #A38D6D;
 }
 
 .but{
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.fa-times{
+    color: red;
+
+}
+
+.btn-outline-dark {
+    background-color: transparent;
+    border-color: #CAC2A8;
+  }
+
+  .btn{
+    border-color: #CAC2A8;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .fa-check{
+      color: green;
+  }
+
+  .link{
+      height: 30px;
+      width: 30px;
+      font-style: italic;
+  }
+
+  .linkdiv{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.extralink{
+   justify-content: center;
+   font-style: italic;
+
+}
+
+.obj{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    white-space: pre;
+    font-weight: bold;
+}
+
+.tip{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; 
+    
 }

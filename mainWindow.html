@@ -2,164 +2,190 @@
 <html lang="en">
 <head>
         <script>window.$ = window.jQuery = require('jquery');</script>
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-     
+        <link href="fontawesome/css/all.css" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+
     <link rel="stylesheet" href="./mainWindow.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <title>Path of Challenges</title>
-   
-     <!-- <script>
-         
-             $(document).ready(function(){
-               $("button").click(function(){
-                 $("a").addClass("");
-               });
-             });
-    </script>  -->
 
 </head>
 <body>
   <nav>
-      <div class="nav-justify-content-center bg-light">
-         <h1 class="text-primary display-4 text-center">Path of Challenges: Betrayal</h1>
+      <div class="nav-justify-content-center">
+         <h1 class="display-4 text-center MainTitle">Path of Challenges: Synthesis</h1>
      
-      <h5 class="test">
+      <h5 class="subTitle">
         Welcome to Path of Challenges, the Path of Exile helper program aimed at helping Exiles complete league challenges.
       </h5>
+      <h6 class="subTitle">
+        This guide will provide the challenges, their objectives, helpful tips on how to complete them and a link for either more information or to help the search with some challenges. 
+        There are various global channels that will help you achieve your challenges, you can tune in by typing either "/global 820" or "/global 4040" into your chat and activating global.
+      </h6>
+      <h6 class="subTitle">
+        Good luck and enjoy!
       <br>
+
+      <a href = "https://www.youtube.com/watch?v=mWgpHnZ3mtA" class = "extralink justify-content-center">
+        Click Here To See The Synthesis Challenge Rewards!
+      </a>
+    </h6>
     </div>
     </nav>
 
-    <ul>
-    </ul>
-
-    <!-- <button>Change button</button> -->
-<!-- 
-        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
-               Challenge 1:
-        </button>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            Kill stuff
-        </div>
-      </div>
-      
-      <button class="btn btn-primary btn-block " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
-            Challenge 2:
-      </button>
-   <div class="collapse" id="collapseExample2">
-     <div class="card card-body">
-         Kill stuff
-     </div>
-    </div> -->
- 
-    <!-- ////// TEST FOR DYNAMIC  -->
+  
+    <!-- ////// DYNAMIC: This accoridan dropdown and template card are what is used to populate the window with challenges taken from the XML. -->
     <p id="demo"></p>
-    <div class="accordion" id="accordionExample">
-            <!-- <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Challenge #1
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  Here will be the challenge description, requirements, tips and other etc                </div>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Challenge #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  Here will be the challenge description, requirements, tips and other etc                </div>
-              </div>
-            </div> -->
-            <!-- //////// -->
-            <div class="card template">
-              <div class="card-header aa" id="headingThree">
+    <div class="accordion BScol" id="accordionExample">
+            <div class="card template BScol">
+              <div class="card-header aa BScol" id="headingThree">
                 <h5 class="mb-0"> 
-                  <button class="btn btn-link collapsed bb" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button  id = "challengetitle" class="btn btn-link collapsed bb BScol" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Challenge #1
+                   
                   </button>
+                 <button id="finished" type="button" class = "btn btn-outline-dark float-right pt-2 xx"> <i class="fas fa-times float-right yy"  id = "finishedicon"></i></button>
                 </h5>
+              
               </div>
-              <div id="collapseThree" class="collapse qq" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  Here will be the challenge description, requirements, tips and other etc.            
+              <div id="collapseThree" class="collapse qq BScol2" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body cb" id = "challengedescription" >
+                  Here will be the challenge description, requirements, tips and other etc.        
                 </div>
+                <div id = "objectives" class = "obj"></div>
+                <div id = "tips" class = "tip"></div>
+                <div>
+                  <a id="challengelink" class="link card-body cl" >CLICK ME</a>
+                </div> 
+                <br>
               </div>
             </div>
           </div>
+          
 
-          <button class="btn btn-primary btn-add-card">
+          <!-- <button class="btn btn-dark btn-add-card BScol2">
+              <i class="fas fa-plus"></i>
               Add new Challenge
-          </button>
+          </button> -->
 
-          <!-- /////// TEST FOR DYNAMIC -->
+          <!-- /////// DYNAMIC -->
+
+
 
     <script>
-
-
+      var hash = 1;
+      var x = 0;
+      var numox = 0;
         const electron = require('electron');
+        const shell = require('electron').shell;
         const {ipcRenderer} = electron;
         ul = document.querySelector('ul');
 
+  $(document).on('click', 'a[href^="http"]', function(event) {
+    console.log("getshere");
+    event.preventDefault();
+    shell.openExternal(this.href);
+  });
+
+//////////////////XML Reading: Read the xml "Challenges.xml" and put everything into the window by creating a template and appending it to the accordian.
+
+var client;
+client = new XMLHttpRequest();
 
 
-//////////////////XML Reading
 
-var client = new XMLHttpRequest();
-var XMLResponse;
+
+
 
 client.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200){
+  if (this.readyState === 4 && this.status === 200){
+    console.log("Starting Read Now")
     ReadXML(this);
   }
 }
-client.open('GET', 'Challenges.xml', true);
+client.open('GET', 'Challenges.xml', false);
 client.send();
 
 function ReadXML(xml){
+  var XMLResponse;
   XMLResponse = xml.responseXML;
-  document.getElementById("demo").innerHTML = XMLResponse.getElementsByTagName("objective")[0].childNodes[0].nodeValue;
-}
+  document.getElementById("challengetitle").innerHTML = XMLResponse.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+  document.getElementById("challengedescription").innerHTML = XMLResponse.getElementsByTagName("Description")[0].childNodes[0].nodeValue;
+  document.getElementById("tips").innerHTML = XMLResponse.getElementsByTagName("tips")[0].childNodes[0].nodeValue;
+   document.getElementById("challengelink").innerHTML = XMLResponse.getElementsByTagName("linktitle")[0].childNodes[0].nodeValue;
+   document.getElementById("challengelink").setAttribute("href", XMLResponse.getElementsByTagName("link")[0].childNodes[0].nodeValue);
+   document.getElementById("challengelink").setAttribute("target","_blank");
+   var numo = XMLResponse.getElementsByTagName("numobj")[0].childNodes[0].nodeValue;
+    numox = Number(numo) + Number(x);
+
+   var editdiv =  document.getElementById("objectives");
+   for (x ; x < numox ; x++){
+    editdiv.textContent += XMLResponse.getElementsByTagName("objectives")[x].childNodes[0].nodeValue + "\n";
+
+
+  }
+
 
 ////////////////////////////XML Reading end
 
 ////////////////////////////////Creating Accordian sections
 var $template = $(".template");
+var limit = XMLResponse.getElementsByTagName('challenge').length;
+console.log("# of challenges " + limit);
 
-var hash = 1;
-while (hash < 10){
-//$(".btn-add-card").on("click", function () {
+while (hash < limit){
     console.log("hash start:" + hash);
     var $newCard = $template.clone();
     $newCard.find(".aa").attr("id", "heading" + (++hash));
    console.log($newCard.find(".aa").attr("id"));
     $newCard.find(".qq").attr("id", "collapse" + (hash));
+    $newCard.find(".xx").attr("id", "finished");
+    $newCard.find(".yy").attr("id", "finishedicon");
     $newCard.find(".qq").attr("aria-labelledby", "heading" + (hash));
-    $newCard.find(".bb").attr("data-target",  "#collapse" + (hash)).text("Challenge #" + hash);
+    $newCard.find(".bb").attr("data-target",  "#collapse" + (hash)).text(XMLResponse.getElementsByTagName("title")[hash-1].childNodes[0].nodeValue);
     $newCard.find(".bb").attr("aria-controls", "collapse"+ (hash));
-    $newCard.find(".card-body").text("Here will be the challenge description, requirements, tips and other etc.")
+    $newCard.find(".cb").text(XMLResponse.getElementsByTagName("Description")[hash-1].childNodes[0].nodeValue);
+    $newCard.find(".tip").text(XMLResponse.getElementsByTagName("tips")[hash-1].childNodes[0].nodeValue);
+
+    numo = XMLResponse.getElementsByTagName("numobj")[hash-1].childNodes[0].nodeValue;
+    console.log("x is " + x);
+    numox = Number(numo) + Number(x);
+    console.log("numox is " + numox);
+    $newCard.find(".obj").text("");
+    for (x ; x < numox ; x++){
+      console.log("Objective placed");
+      $newCard.find(".obj").append(XMLResponse.getElementsByTagName("objectives")[x].childNodes[0].nodeValue + "\n");
+    }
+    console.log("x is " + x);
+    $newCard.find(".cl").text(XMLResponse.getElementsByTagName("linktitle")[hash-1].childNodes[0].nodeValue);
+    $newCard.find(".cl").attr("href", XMLResponse.getElementsByTagName("link")[hash-1].childNodes[0].nodeValue);
+    $newCard.find(".cl").attr("target","_blank");
     $("#accordionExample").append($newCard.fadeIn());
     console.log("hash end:" + hash);
 }
-//});
+}
+
+var $svg = $('svg');
+var $elements = $('a[*|xlink]', $svg);
+
+$elements.each(function(index, element) {
+    $(element).attr('class', 'my-new-class');  // force class attribute
+});
+
+console.log('svg', $svg);
+console.log('elements', $elements, $elements[0]);
+
+// toggle between cross and tick
+$(document).on('click', "#finished", function(){
+  var a = $(this);
+  $(this).find('i').toggleClass('fa-check fa-times');
+});
+
+
 
 
 /////////////////////////////////////
@@ -188,21 +214,21 @@ while (hash < 10){
         });
 
         //remove individual
-        ul.addEventListener('dblclick', removeItem);
+       // ul.addEventListener('dblclick', removeItem);
         //a.addEventListener('contextmenu', removeItem);
         //div.addEventListener('dblclick', removeItem);
 
 
 
-        function removeItem(e){
-            e.target.remove();
-            if(ul.children.length == 0){
-                ul.className = '';
-            }
-            if (a.children.length == 0){
-                a.className = '';
-            }
-        }
+        // function removeItem(e){
+        //     e.target.remove();
+        //     if(ul.children.length == 0){
+        //         ul.className = '';
+        //     }
+        //     if (a.children.length == 0){
+        //         a.className = '';
+        //     }
+        // }
     
     </script>
 
