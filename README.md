@@ -18,20 +18,13 @@ You can visit the [Releases](https://github.com/LeightonJonker/Path-of-Challenge
 
 
 ## What Path of Challenges Runs On:
-[Fontawesome]
-(https://fontawesome.com/)
-[Bootstrap]
-(https://getbootstrap.com/)
-[Electron]
-(https://electronjs.org/)
-[ElectronPackager]
-(https://github.com/electron-userland/electron-packager)
-[npmjs]
-(https://www.npmjs.com/)
-[jQuery]
-(https://jquery.com/)
-[Popper]
-(https://popper.js.org/)
+*[Fontawesome](https://fontawesome.com/)
+*[Bootstrap](https://getbootstrap.com/)
+*[Electron](https://electronjs.org/)
+*[ElectronPackager](https://github.com/electron-userland/electron-packager)
+*[npmjs](https://www.npmjs.com/)
+*[jQuery](https://jquery.com/)
+*[Popper](https://popper.js.org/)
 
 
 ## Acknowledgement
