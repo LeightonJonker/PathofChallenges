@@ -15,6 +15,8 @@ let addWindow;
 app.on('ready', function(){
     // make window
     mainWindow = new BrowserWindow({
+        width:1400,
+        height: 1000,
         show: false
     });
     mainWindow.setIcon('assets/icons/win/PoCIcon.png');

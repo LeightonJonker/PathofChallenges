@@ -94,13 +94,14 @@ body{background-color: #181818 !important; font-family: 'Fontin', helvetica, ari
 .obj{
     padding-left: 20px;
     padding-bottom: 20px;
-    white-space: pre;
-    font-weight: bold;
+    white-space: pre-line;
+    color: #bda780;
 }
 
 .tip{
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px; 
+    white-space: pre-line;
     
 }
