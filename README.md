@@ -35,5 +35,5 @@ You can visit the [Releases](https://github.com/LeightonJonker/Path-of-Challenge
 
 
 ## Acknowledgement
-I would like to thank Grinding Gear Games for creating Path of Exile, as well as the talented folks at Poelab.com and Engineering Eternity as they have many great guides for Path of Exile which I have referenced in this application. the Path of Exile gmepedia pages have also been a great help in helping teach and show exiles the different mechanics in Path of Exile.
+I would like to thank Grinding Gear Games for creating Path of Exile, as well as the talented folks at Poelab.com, Engineering Eternity and ZiggyD as they have many great guides for Path of Exile which I have referenced in this application. the Path of Exile gamepedia pages have also been a great help in helping teach and show exiles the different mechanics in Path of Exile.
 

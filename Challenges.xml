@@ -5,7 +5,7 @@
        <title lang="en"> 1. Complete 3 Vaal Side Areas </title> 
        <Description> Complete 3 Vaal Side Areas </Description> 
        <numobj> 0 </numobj>
-       <tips>Vaal side areas are found during normal progression of the storyline and are characterised as areas with a heart and red glow near the entrance. </tips>
+       <tips>Vaal side areas are found during normal progression of the storyline and are characterised as areas with a pulsating heart and red glow near the entrance. </tips>
       <linktitle>Path of Exile Vaal Side Areas</linktitle>
       <link>https://pathofexile.gamepedia.com/Vaal_side_area</link>       
     </challenge>
@@ -45,7 +45,8 @@
         <objectives> Fallen from Grace (Act 6 - Lily) </objectives>
         <objectives> Fastis Fortuna (Act 9 - Petarus and Vanja) </objectives>
         <objectives> No Love for Old Ghosts (Act 10 - Weylam) </objectives>
-       <tips> Quests are given from NPCs with exclamation points above their head while progressing through the 10 acts of Path of Exile. The lnik provided has all main story quests as well as how they can be completed.</tips>
+       <tips> Quests are given from NPCs with exclamation points above their head while progressing through the 10 acts of Path of Exile. The link provided has all story quests as well as how they can be completed.
+       These quests are optional side quests so require you to usually look for something that is off the beaten track to complete.</tips>
       <linktitle>Path of Exile Quests</linktitle>
       <link>https://pathofexile.gamepedia.com/Quest</link>       
     </challenge> 
@@ -77,8 +78,7 @@
        <objectives> Ring</objectives>
        <objectives> Amulet</objectives>
        <objectives> Belt</objectives>
-       <tips> After freeing Helena in act 2, you will gain access to your very own customisable hideout. There, you can place down a crafting bench. Place items in this crafting bench and craft affixes on them
-       if they have spare prefix or suffix slots.</tips>
+       <tips> After freeing Helena in act 2, you will gain access to your very own customisable hideout. There, you can place down a crafting bench. Place items in this crafting bench and craft affixes on them if they have spare prefix or suffix slots.</tips>
       <linktitle>Path of Exile Crafting Bench</linktitle>
       <link>https://pathofexile.gamepedia.com/Crafting_Bench</link>       
     </challenge>
@@ -116,9 +116,8 @@
       <objectives> Wrought Reaver</objectives>
       <objectives> Wrought Decapitator</objectives>
       <objectives> Winged Synthete</objectives>
-       <tips> This challenge is quite reliant on RNG, as these monsters can only appear in memory fragments and in memories. Running as many memory fragments and making long synthesis chains will help complete this 
-       challenge. Try to make long connecting chains of memories and applying as many global modifiers as possible, as there are global modifers that upgrade mob packs to rare and add more pack size to memories,
-       increasing the chance that you will find the monsters you need to kill. The link provided is a ZiggyD video of how to make long memory chains. </tips>
+       <tips> This challenge is quite reliant on RNG, as these monsters can only appear in memory fragments and in memories. Running as many memory fragments and making long synthesis chains will help complete this challenge. 
+       Try to make long connecting chains of memories and applying as many global modifiers as possible, as there are global modifers that upgrade mob packs to rare and add pack size to memories, increasing the chance that you will find the monsters you need to kill. The link provided is a ZiggyD video of how to make long memory chains. </tips>
       <linktitle>Path of Exile Building Crazy Zone Mods</linktitle>
       <link>https://www.youtube.com/watch?v=JdpYNIN89ck</link>       
     </challenge>
@@ -172,9 +171,8 @@
         <objectives> Courthouse </objectives>
         <objectives> Plateau </objectives>
         <objectives> Precinct </objectives>
-       <tips> Making maps rare or magic will give them modifiers that give more rewards and experience at the expense of being harder to complete. The Twinned modifier in this case doubles the number of unique
-         bosses found in the map. An easy way to achieve this challenge is to either alchemy these maps and hope you get a "Twinned" modifier or use Transmutation, Augmentation and Alteration orbs
-         to make a magic map with the Twinned modifer. You can also buy the maps with the modifer or tag along with someone else who is going to run the map.</tips>
+       <tips> Making maps rare or magic will give them modifiers that give more rewards and experience at the expense of being harder to complete. The Twinned modifier in this case doubles the number of unique bosses found in the map. An easy way to achieve this challenge is to either alchemy these maps and hope you get a "Twinned" modifier or use Transmutation, Augmentation and Alteration orbs to make a magic map with the Twinned modifer. You can also buy the maps with the modifer or tag along with someone else who is going to run the map.
+       You can also use the pathofexile.com/trade webpage to find and buy maps with the twinned modifer.</tips>
       <linktitle>Path of Exile Maps</linktitle>
       <link> https://pathofexile.gamepedia.com/Map</link>       
     </challenge>
@@ -186,8 +184,8 @@
         <objectives> Two </objectives>
         <objectives> Three </objectives>
         <objectives> Four </objectives>
-       <tips> Coming across Cavas during the normal progression of the Path of Exile 10 act storyline will allow you to enter memory fragments and stabilize memory fragments to use in the Memory Nexus.
-       These can be fragments with either two, three or four points that must be stabilized before they can be completed. You will eventually complete this challenge if you continue to complete all found fragmented memories. </tips>
+       <tips> Coming across Cavas during the normal progression of the Path of Exile 10 act storyline will allow you to enter and stabilize fragmented memories to use in the Memory Nexus.
+       These can be fragments with either two, three or four points that must be stabilized before they can be completed. You will eventually complete this challenge if you continue to complete all found fragmented memories, as 4-bridge fragmented memories are not too rare to come across. </tips>
       <linktitle>Path of Exile Synthesis</linktitle>
       <link>https://www.poelab.com/synthesis-league-and-mechanics/</link>         
     </challenge>
@@ -215,10 +213,9 @@
         <objectives> The Constrictor </objectives>
         <objectives> The Purifier </objectives>
         <objectives> The Elder </objectives>
-       <tips> While progressing through end-game maps and completing Shaper influenced maps, the Elder will appear on the Atlas, spreading his influence. To fight the Elder Guardians, you must complete
-       maps that have the shapers influence that are adjacent to elder influenced maps. This will cause the Shaper to be pushed back and the Elder influence to grow. Once approximately
-       15 maps have been taken over by the Elder, random Elder-Influenced maps will allow the Elder Guardians to spawn in the stead of the normal unique bosses in those maps.
-       Once all 4 Elder Guardians have been defeated the Elder himself becomes able to be fought. The Poelab link provided is a guide on how to defeat the elder, and has a guide for each of the guardians on the website as well.</tips>
+       <tips> While progressing through end-game maps and completing Shaper influenced maps, the Elder will appear on the Atlas, spreading his influence. To fight the Elder Guardians, you must complete maps that have the shapers influence that are adjacent to elder influenced maps. 
+       This will cause the Shaper to be pushed back and the Elder influence to grow. Once approximately 20 maps have been taken over by the Elder, random Elder-Influenced maps will allow the Elder Guardians to spawn in the stead of the normal unique bosses in those maps. Once all 4 Elder Guardians have been defeated the Elder himself becomes able to be fought.
+       The Poelab link provided is a guide on how to defeat the elder, and has a guide for each of the guardians on the website as well.</tips>
       <linktitle>Path of Exile Elder</linktitle>
       <link>https://www.poelab.com/the-elder/</link>       
     </challenge>
@@ -227,8 +224,7 @@
        <title lang="en">11. Restore Cavas' Memory </title> 
        <Description >Explore the Atlas to help restore Cavas' Memory. </Description> 
        <numobj> 0 </numobj>
-       <tips> Similar to the complete the quests challenge, this challenge can be completed by progressing through the Path of Exile storyline and into the endgame maps system while interacting with the 
-       Synthesis league mechanics. Sometime during mapping (aproximately around tier 5-6 maps), you will come across a memory fragment that completes this challenge. </tips>
+       <tips> Similar to the complete the quests challenge, this challenge can be completed by progressing through the Path of Exile storyline and into the endgame maps system while interacting with the Synthesis league mechanics. Sometime during mapping (aproximately around tier 5-6 maps), you will come across a memory fragment that completes this challenge. </tips>
       <linktitle>Path of Exile Synthesis</linktitle>
       <link>https://www.poelab.com/synthesis-league-and-mechanics/</link>       
     </challenge>
@@ -247,8 +243,7 @@
        <title lang="en">12. Complete Shaper Strongholds</title> 
        <Description >Complete 20 Shaper Strongholds. </Description> 
        <numobj> 0 </numobj>
-       <tips> During mapping in the end-game, if you progress enough, the shaper will become aware of your presence and start influencing maps. A Shaper Stronghold is a map on the Atlas
-       that the shaper has a strong influence over. These appear randomly as you complete maps and other Shaper Strongholds. </tips>
+       <tips> During mapping in the end-game, if you progress enough, the shaper will become aware of your presence and start influencing maps. A Shaper Stronghold is a map on the Atlas that the shaper has a strong influence over. These appear randomly as you complete maps and other Shaper Strongholds, but will spawn more often the more you defeat Shaper influenced maps and let the Elder take over.</tips>
       <linktitle>Path of Exile Shaper Strongholds</linktitle>
       <link>https://pathofexile.gamepedia.com/Atlas_of_Worlds#Shaper.27s_Stronghold</link>       
     </challenge>
@@ -279,8 +274,9 @@
        <title lang="en">13. Defeat Atziri </title> 
        <Description >Defeat Atziri, Queen of the Vaal </Description> 
        <numobj> 0 </numobj>
-       <tips> Completing Vaal side areas will give you Sacrifice fragments. 4 different fragments are required to access the map in which Atziri resides. Atziri can be difficult for new players but the 
-       Poelab guide that I have provided gives extensive help as to how to defeat Atziri. Poelab also provides help as to how to fight the other minibosses that you fight before Atziri (The Vessels of the Vaal and the Trio).  </tips>
+       <tips> Completing Vaal side areas will give you Sacrifice fragments. 4 different fragments (Dusk, Dawn, Noon and Midnight) are required to access the map in which Atziri resides. 
+       Atziri can be difficult for new players but the Poelab guide that I have provided gives extensive help as to how to defeat Atziri.
+       Poelab also provides help as to how to fight the other minibosses that you fight leading up to Atziri (The Vessels of the Vaal and the Trio).  </tips>
       <linktitle>Path of Exile Atziri Guide</linktitle>
       <link>https://www.poelab.com/atziri-queen-of-the-vaal/</link>       
     </challenge>
@@ -304,11 +300,10 @@
         <objectives> Defeat Guardian of the Vault (T6 Vault Map) after defeating 4 Animated Guardians and not being hit by Runic Circles. </objectives>
         <objectives> Defeat Stonebeak, Battle Fowl and Gnar, Eater of Carrion (T9 Canyon Map) within 5 seconds of each other. </objectives>
         <objectives> Defeat Fragment of Winter (T8 Waterways Map) while at least 10 summoned Volatile Ice are alive. </objectives>
-       <tips>These encounters are from bosses in the end-game mapping system. These encounters either require a very fast kill of the boss, or to wait until certain conditions are met
-       before the boss can be killed. 
-       For Doedre, She will start screaming a little while after you start fighting her, forcing you to hide behind rocks found in the room as the scream does quite a bit of damage. If you have enough defences and damage you will be able to tank her scream and kill her before it kills you. 
-       For the Guardian of the Vault, each time he slams down he will summon a guardian. Stay within the Guardian's protective bubble without attacking it and wait for 4 animated guardians to have been summoned and defeated before you defeat the Guardian of the Vault. 
-       The Canyon Map has 2 bosses, Stonebeak and Gnar; having a build with enough damage to kill them while they are close together will complete this part of the challenge.
+       <tips>These encounters are from bosses in the end-game mapping system. These encounters either require a very fast kill of the boss, or to wait until certain conditions are met before the boss can be killed. 
+       For Doedre, She will start screaming a little while after you start fighting her, forcing you to hide behind rocks found in the room as this scream does quite a bit of damage. If you have enough defences and damage you will be able to tank her scream and kill her before it kills you. Otherwise, damage her and wait until she screams again before finishing her off.
+       For the Guardian of the Vault, each time he slams down he will summon a guardian. Stay within the Guardian's protective bubble without attacking it and wait for 4 animated guardians to have been summoned and defeated before you defeat the Guardian of the Vault. Damaging the main guardian might cause him to go invulnerable and start spawning the runic circles which are very difficult to dodge as they have very large areas of effect.
+       The Canyon Map has 2 bosses, Stonebeak and Gnar. Having a build with enough damage to kill them while they are close together will complete this part of the challenge.
        The Fragment of Winter will periodically spawn Volatile Ice monsters, which must not be attacked. Leaving the area, returning and staying invulnerable (not moving) once the boss is aggressive towards you or your golem will cause it to periodically spawn more Volatile Ice. Once 10 have been created you can kill the boss. Usually a low area of effect single target skill is most suited for this challenge.
        </tips>
       <linktitle>Path of Exile Maps</linktitle>
@@ -346,10 +341,9 @@
         <objectives> Augmented Distant Memory </objectives>
         <objectives> Twisted Distant Memory </objectives>
         <objectives> Rewritten Distant Memory </objectives>
-       <tips> These are the boss memories of the Memory Nexus. First they must appear (which they start to after Cavas regains his memory). They must then be pathed to using memories and completed.
-       The bosses themselves are not too difficult if they are in lower level areas but a character which can kite and safely attack the bosses from range (such as a trapper or totem-user) is reccomended.
-       An easy way to spawn the Synthesis bosses is to not complete any reward nodes so that the limit of 19 is reached. The 20th node to spawn will always be a boss node. You can force a "tick" of the memory nexus
-       by placing and spawning a memory, so it is advised to have one of your Nexus' bridges free so you can repeatedly spawn and delete memories to force bosses to spawn.   </tips>
+       <tips> These are the boss memories of the Memory Nexus. First they must spawn (which they start to after Cavas regains his memory). They must then be pathed to using memories and defeated.
+       The bosses themselves are not too difficult if they are in lower level areas but a character which can kite and safely attack the bosses from range (such as a trapper or totem-user) is recommended.
+       An easy way to spawn the Synthesis bosses is to not complete any reward nodes so that the limit of 19 is reached. The 20th node to spawn will always be a boss node. You can force a "tick" of the memory nexus by placing and spawning a memory, so it is advised to have one of your Nexus' bridges free so you can repeatedly spawn and delete memories to force bosses to spawn.   </tips>
       <linktitle>Path of Exile Best Boss Killer Builds (GamerDiscovery)</linktitle>
       <link>https://gamerdiscovery.com/6-best-path-of-exile-boss-killer-builds/</link>       
     </challenge>
@@ -358,7 +352,7 @@
        <title lang="en">17. Synthesise a Unique Item </title> 
        <Description >Use the Synthesiser to synthesise a Fractured Unique item. </Description> 
        <numobj> 0 </numobj>
-       <tips> Synthesis bosses will sometimes drop fractured unique items which can then be used at the Syntheizer in the Memory Nexus with rare fractured items of the same type (rings, helmets, gloves etc.)
+       <tips> Synthesis bosses will sometimes drop fractured unique items which can then be used with 2 other fractured items (which do not need to be unique) at the Syntheizer in the Memory Nexus with rare fractured items of the same type (rings, helmets, gloves etc.)
        If you have yet to obtain a fractured unique item, you can buy it from the path of exile trade site which I have provided. </tips>
       <linktitle>Path of Exile Fractured Uniques</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/yvEVMghR</link>       
@@ -381,7 +375,7 @@
         <objectives> With 1 implicit </objectives>
         <objectives> With 2 implicits </objectives>
         <objectives> With 3 implicits </objectives>
-       <tips> Fractured rare items can come with up to 3 locked in place affixes. If you use 3 fractured rares in the Syntheizer that all have 2 locked in place affixes then the resulting item will have 2 implicits. 
+       <tips> Fractured rare items can come with up to 3 locked-in-place affixes. If you use 3 fractured rares in the Syntheizer that all have 2 locked in place affixes then the resulting item will have 2 implicits. 
        These fractured items with two or three locked in place affixes can be found and picked up but are much rarer than normal fractured items with only one affix locked in place.</tips>
       <linktitle>Path of Exile Synthesis</linktitle>
       <link>https://www.poelab.com/synthesis-league-and-mechanics/</link>           
@@ -445,9 +439,9 @@
        <title lang="en">20. Achieve Ascension </title> 
        <Description > Use the Ascendancy Device in all 4 Labyrinths.</Description> 
        <numobj> 0 </numobj>
-       <tips> During your progression of the 10 main acts of Path of Exile, you will come across / need to find certain trials in areas. Completing these trials will allow you access to the
-       labyrinth. There are 4 difficulties of the labyrinth which will award you with 2 Ascendancy points for each level. The provided link will take you to Poelab, which will detail all you need to know about accessing,
-       completing and pathing through the labyrinth. Poelab also provides a helpful 3rd party tool, Labcompass that helps players navigate the labyrinth faster. </tips>
+       <tips> During your progression of the 10 main acts of Path of Exile, you will come across / need to find certain trials in areas. Completing these trials will allow you access to the labyrinth.
+       There are 4 difficulties of the labyrinth which will award you with 2 Ascendancy points for each level. The provided link will take you to Poelab, which will detail all you need to know about accessing, completing and pathing through the labyrinth.
+       Poelab also provides a helpful 3rd party tool, Labcompass that helps players navigate the labyrinth faster. </tips>
       <linktitle>Path of Exile Lab Helper Website Guides</linktitle>
       <link>https://www.poelab.com/labyrinth-guides/</link>       
     </challenge>
@@ -501,9 +495,7 @@
         <objectives> Bleak Halls Memory</objectives>
         <objectives> City Park Memory</objectives>
         <objectives> Labour Camp Memory</objectives>
-       <tips> This is a pretty grind-heavy challenge as you need to complete many fragmented memories in order to come across all these different ones. Some may be gated behind higher level content so it is
-        advised not to spam lower level maps or areas in order to complete this challenge. People in global may have the fragmented memory and be willing to share it's completion but your best chances are running
-        maps and hoping to come across the fragmented memories you need. It seems that fragmented memories are not area / map specific as well so any area can give any memory. </tips>
+       <tips> This is a pretty grind-heavy challenge as you need to complete many fragmented memories in order to come across all these different ones. Some may be gated behind higher level content so it is advised not to spam lower level maps or areas in order to complete this challenge. People in global may have the fragmented memory and be willing to share it's completion but your best chances are running maps and hoping to come across the fragmented memories you need. It seems that fragmented memories are not area / map specific as well so any area can give any memory. Activating all possible memory stabilizers in a fragmented memory will complete that memory.  </tips>
       <linktitle>Path of Exile Synthesis</linktitle>
       <link>https://www.poelab.com/synthesis-league-and-mechanics/</link>            
     </challenge>
@@ -546,11 +538,11 @@
        <Description > Complete each of the following Encounters. </Description> 
        <numobj> 4 </numobj>
         <objectives> 40 Breaches (Purple hands that you run over and spawn monsters to kill)</objectives>
-        <objectives> 40 Abysses (Cracks in the ground that propagate once ran over and spawn monsters to kill) </objectives>
+        <objectives> 40 Abysses (Green / Black Cracks in the ground that propagate once ran over and spawn monsters to kill) </objectives>
         <objectives> 200 Prophecies (Trade silver coins for Prophecies from Navali after freeing her in The Climb (Act 1) ) </objectives>
         <objectives> Release an Essence of Hysteria, Insanity, Horror or Delirium (Completed by using a Remnant of Corruption on a Scorn, Misery, Envy or Dread Essence found while mapping) </objectives>
        <tips> These Encounters are tied to previous leagues (Breach, Abyss, Prophecy and Essence respectively). These challenges are best completed over a period of time while mapping and completing other challenges.
-       Zana can put Essence or Breach on any ran map for 3 or 4 chaos respectively, allowing these challenges to be completed faster.</tips>
+       Zana can put Essence or Breach on any non-unique map for 3 or 4 chaos respectively, allowing these challenges to be completed faster.</tips>
       <linktitle>Path of Exile Essence Help Table </linktitle>
       <link>https://i.imgur.com/fM8QImw.jpg</link>       
     </challenge>
@@ -581,8 +573,8 @@
         <objectives> Talisman Item Chests</objectives>
         <objectives> Labyrinth Item Chests</objectives>
        <tips> These reward memories will randomly appear on your Memory Map while you progress through the game and through the end game. 
-       Usually new reward memories cannot spawn if there are unfinished reward memories or the current limit (20) of reward memories have been reached, so clearing as many reward memories as possible will allow new ones to appear.
-        New characters have separate memory nexuses so creating multiple characters to get multiple reward memories is also beneficial. </tips>
+       Usually new reward memories cannot spawn if there are unfinished reward memories or the current limit (19) of reward memories have been reached, so clearing as many reward memories as possible will allow new ones to appear.
+       New characters have separate memory nexuses so creating multiple characters to get multiple different reward memories is also beneficial. </tips>
       <linktitle>Poelab Synthesis Guide </linktitle>
       <link>https://www.poelab.com/synthesis-league-and-mechanics/</link>         
     </challenge>
@@ -597,9 +589,8 @@
       <objectives> Intervention</objectives>
       <objectives> Syndicate Mastermind</objectives>
        <tips>Throughout Wraeclast, you will encounter areas that have Immortal Syndicate activity. Defeating the members of the Immortal Syndicate Will give you different options to gain intelligence towards safehouses.
-       These safehouses contain rewards based off of how many members are in the safehouses and which. Completing safehouses contribute to gaining intelligence towards the mastermind, which when at 100, you can go and defeat.
-       The Mastermind fight can be difficult if you have an unprepared or unsuiting build. Being able to stay at range and kite the mastermind while dealing sufficient damage will allow for the easy completion of this challenge.
-       Players will usually sell completions of the mastermind as they are currently very difficult to spawn and take a very long time.
+       These safehouses contain rewards based off of how many members are in the safehouses, their ranks and which. Completing safehouses contribute to gaining intelligence towards the mastermind, which when at 100, you can go and defeat.
+       The Mastermind fight can be difficult if you have an unprepared or unsuiting build. Being able to stay at range and kite the mastermind while dealing sufficient damage will allow for the easy completion of this challenge. Players will usually sell completions of the mastermind as they are currently very difficult to spawn and take a very long time.
       The link I have provided is a fully detailed guide to the whole Betrayal league mechanic as well as the Mastermind fight. </tips>
       <linktitle>Poelab Full Betrayal Guide</linktitle>
       <link>https://www.poelab.com/betrayal/</link>       
@@ -613,9 +604,8 @@
         <objectives> Two or more of the same modifier </objectives>
         <objectives> Chance to find Divination Cards and chance to find Maps </objectives>
         <objectives> Affected by 5 Global Modifiers and placed on a Memory Amplifier </objectives>
-       <tips> When using memory modifers, any random global modifer can be applied to whatever memories are chained up in your memory nexus. 
-       The best way to complete this challenge is to try and create memory chains that are as big as possible and to get as many global modifers on them as possible.
-        The link I have provided is by ZiggyD and will show you how to efficiently chain memories together and put multiple modifiers on them.
+       <tips> When using memory modifers, any random global modifer can be applied to whatever memories are chained up in your memory nexus. The best way to complete this challenge is to try and create memory chains that are as big as possible and to get as many global modifers on them as possible.
+      The link I have provided is by ZiggyD and will show you how to efficiently chain memories together and put multiple modifiers on them.
         </tips>
       <linktitle>Path of Exile Building Crazy Zone Mods</linktitle>
       <link>https://www.youtube.com/watch?v=JdpYNIN89ck</link>         
@@ -656,8 +646,8 @@
        <tips> These challenges (especially the first 3) are in the most parts, DPS and maneuverability checks.
        With the Shaper, your best bet is to be able to deal enough damage to move him into his next state before any Anomalies can even spawn. If any do spawn, they are relatively slow moving and should be easy to kite, while making the fight a little harder. 
        The Vessels of the Vaal will need to be both brought down to low health before they are killed as they both have quite a lot of health in the Alluring Abyss. 
-       The Mastermind of the Syndicate is the hardest as the area level must be 80 and above and the Volatile Skeletons are quite troublesome to evade, given the space you get to move around in the Mastermind fight.
-       Using the Essence Zana map mod (3c) will increase the chances of finding a natural 4 essence creature which you can then use a Remnant of Corruption on to make it 5 essences. </tips>
+       The Mastermind of the Syndicate is the hardest as the area level must be at least 80 and the Volatile Skeletons are quite troublesome to evade, given the space you get to move around in the Mastermind fight. This part of the challenge is similar to The Shaper and his Anomalies. 
+       Using the Essence Zana map mod (3c) in a Tier 13 map or higher will increase the chances of finding a natural 4 essence creature which you can then use a Remnant of Corruption on to make it 5 essences. </tips>
       <linktitle> Poelab Syndicate Mastermind Guide</linktitle>
       <link> https://www.poelab.com/catarina/ </link>       
     </challenge>
@@ -672,7 +662,7 @@
         <objectives> Defeat Rewritten Synthete without taking damage from Summoned Stationary Pylons. </objectives>
        <tips> An extension of Complete Distant Memories I, this challenge requires a level area of 75 and above. The Synthesis bosses will, during the fight with them, spawn entities that do not move but deal damage to whoever touches them or their projectiles.
        The easiest way to complete this challenge would be to use a character that is able to focus on moving around the Filimites / Pylons with high speed (such as a Trapper, Totem user, Winter Orb User or Brand User.).
-       These bosses do not have any invincibility phases, meaning charaters with high DPS can defeat the bosses without spawning the Filimites or Pylons. Running Tier 8 maps will ensure that the boss spawned is level 75. A level 75 boss has the lowest life and is the easiest to defeat. 
+       These bosses do not have any invincibility phases, meaning charaters with high DPS can defeat the bosses before the Filimites or Pylons start to stack up and become much harder to dodge. Running Tier 8 maps will ensure that the boss spawned is level 75. A level 75 boss has the lowest life and is the easiest to defeat. 
        An easy way to spawn the Synthesis bosses is to not complete any reward nodes so that the limit of 19 is reached. The 20th node to spawn will always be a boss node. You can force a "tick" of the memory nexus by placing and spawning a memory, so it is advised to have one of your Nexus' bridges free so you can repeatedly spawn and delete memories to force bosses to spawn. </tips>
       <linktitle>Path of Exile Boss Killer Builds </linktitle>
       <link>https://gamerdiscovery.com/6-best-path-of-exile-boss-killer-builds/</link>       
@@ -682,7 +672,7 @@
        <title lang="en">30. Reach Level 90 </title> 
        <Description >Attain character level 90. This challenge still counts even if your character dies afterwards.</Description> 
        <numobj> 0 </numobj>
-       <tips> A very simple challenge, which is most easily achieved by running high tier maps or using enhanced breachstones. </tips>
+       <tips> A very simple challenge, which is most easily achieved by running high tier maps, interacting with league mechanics or using enhanced breachstones. Just make sure your character doesn't die too often! </tips>
       <linktitle>Path of Exile Experience</linktitle>
       <link>https://pathofexile.gamepedia.com/Experience</link>       
     </challenge>
@@ -692,7 +682,7 @@
        <Description > Identify a total of 1,000 Fractured modifiers.</Description> 
        <numobj> 0 </numobj>
        <tips> Fractured items drop exclusively from Synthesized monsters and chests, which can only be found in fragmented memories or in the Memory Map. Pick up every one that drops and identify them. 
-       The provided link is for Synthesis SC Unidentified Fractured Items. </tips>
+       The provided link is for Synthesis SC Unidentified Fractured Items, which you can buy from other exiles to make the progression a little faster. </tips>
       <linktitle>Path of Exile Unidentified Fractured Items</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/gm9D5jUQ</link>       
     </challenge>
@@ -711,7 +701,7 @@
        <title lang="en">33. Complete Maps with Eight Mods </title> 
        <Description >Complete 30 Red Tier Rare Maps while they have 8 mods. Maps having 8 mods is a potential outcome of Vaal Orb corruption. These Maps are completed by killing their Unique Bosses. Sextant and Zana mods do not count towards the mod count of this challenge. </Description> 
        <numobj> 0 </numobj>
-       <tips> Red tier maps are maps that are tiers 11 and on. The only way to get 8 mods on a map is via a Vaal Orb. 8 mod maps can be bought from other exiles or run in rotations (everyone in a party has their own map and take turns running them) I have provided a link for a trade search of red tier 8 mod maps. Don't forget to change your league to what you are playing in!</tips>
+       <tips> Red tier maps are maps that are tiers 11 and on. The only way to get 8 mods on a map is via a Vaal Orb. 8 mod maps can be bought from other exiles or run in rotations (everyone in a party has their own map and takes turns running them) I have provided a link for a trade search of red tier 8 mod maps. Don't forget to change your league to what you are playing in!</tips>
       <linktitle>Path of Exile Red Tier 8 Mod Maps</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/rmorPmiQ</link>       
     </challenge>
@@ -739,9 +729,9 @@
       <objectives> Pillars of Arun</objectives>
       <objectives> Perandus Manor</objectives>
       <objectives> Doryani's Machinarium</objectives>
-       <tips> Most unique maps are quite cheap and purchaseable from other exiles, with some more expensive ones such as Perandus Manor and The Putrid Cloister should either be skipped or paid to complete by people offering completions in global. 
-       The Divination card "The Encroaching Darkness" also gives unique maps but has had it's drop rate nerfed in recent patches.
-       Using the pathofexile.com/trade API you can easily search for all these maps and see which ones are affordable to run. </tips>
+       <tips> Most unique maps are quite cheap and purchaseable from other exiles. More expensive ones such as Perandus Manor and The Putrid Cloister should either be skipped or paid to participate in a map completion by people offering completions in global. 
+       The Divination card "The Encroaching Darkness" also gives corrupted unique maps but has had it's drop rate nerfed in recent patches.
+       Using the pathofexile.com/trade API you can easily search for all these maps and see which ones are affordable to run. I have provided a link that lists all unique maps currently in the game.</tips>
       <linktitle>Path of Exile Unique Maps</linktitle>
       <link>https://pathofexile.gamepedia.com/List_of_unique_maps</link>       
     </challenge>
@@ -755,10 +745,10 @@
         <objectives> Defeat the Vaal Omnitect in an area of Level 75 or higher (Incursion Vaal Temple Boss) </objectives>
         <objectives> Complete the Beachhead (Harbinger Map) </objectives>
        <tips> 
-       The Bestiary boss portal can be spawned by certain captured red beasts, which can be bought from players or found in maps (Saqawine Rhex, Craicic Spider Crab, Fenumal Hybrid Arachnid and Farric Tiger Alpha).
+       The Bestiary boss portal can be spawned by certain captured red beasts, which can be bought from players or found in maps (Saqawine Rhex, Craicic Spider Crab, Fenumal Hybrid Arachnid and Farric Tiger Alpha). The Saqawine Rhex is the cheapest at around 7 chaos so you can buy the captured beast and use it to summon a portal to Saqawal in your menagerie.
        Cadiro Perandus can only be spawned in the Research Safehouse when Janus is in the Research branch OR in the Perandus Manor map, which is very expensive (so it is suggested you run Janus in Research). 
-       The Vaal omnitect is probably the easiest as it appears often due to the incursion league mechanic and only needs to be level 75 (Tier 8 maps) or higher.
-       The Beachhead is usually quite expensive as it gives decent experience and it's advised that you buy a spot from other exiles running the map. </tips>
+       The Vaal omnitect is probably the easiest as it appears often due to the incursion league mechanic and only needs to be level 75 (Tier 8 maps) or higher. Just make sure that you have opened enough doors to be able to reach the final chamber in the present-day temple of Atzoatl.
+       The Beachhead is usually quite expensive as it gives decent experience and it's advised that you buy a spot from other exiles running the map. Alternatively, you can attempt to make one yourself by using a Harbinger orb on a map, which will either transform it to a map a tier above, or into a beachhead map.</tips>
       <linktitle>Path of Exile Beachhead Map</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/KybJ8Pu5</link>       
     </challenge>
@@ -788,7 +778,7 @@
         <objectives> Vaal Temple </objectives>
        <tips> These encounters are very difficult and often require end-game gearing or help from stronger exiles. 
        Poelab.com and the Youtube channel Engineering Eternity provide great guides to defeating Atziri, the Delve bosses and The Shaper.
-       The link I have provided is for Vaal Temples which is a tier 16 map which can only be obtained from divination cards or by using a Vaal orb on a tier 15 map.  </tips>
+       The link I have provided is for corrupted Vaal Temples which are tier 16 maps that can only be obtained from divination cards or by using Vaal orbs on tier 15 maps.  </tips>
       <linktitle>Path of Exile Vaal Temple Map</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/jWLoZZUX</link>       
     </challenge>
@@ -797,9 +787,9 @@
        <title lang="en">38. Complete Zana's Questline </title> 
        <Description >Complete the entire questline given by Zana. </Description> 
        <numobj> 0 </numobj>
-       <tips>Zana's questline is about defeating Uber Elder which is PoE's current endgame boss. If your build is not top tier then try ask for an experienced player to kill it for you when you can spawn Uber Elder / The Shaper.
-        To spawn Uber elder, you need to get all memory fragments, defeat The Shaper, then let the elder influence your higher tier maps. If you see a visible Shaper influence on the Shaper Guardians, defeat them and let the Elder influence take over.
-        Occupying each of the Shaper Guardians will end with the elder taking over the Atlas Symbol at the middle of your atlas. From then you can access the Uber Elder by using the Shaper's 4 Guardian fragments, which is the same way you access The Shaper's realm.
+       <tips>Zana's questline is about defeating Uber Elder which is PoE's current endgame boss. If your build is not top tier or you do not have enough experience, try asking for an experienced player to kill The Shaper or Uber Elder.
+        To spawn Uber elder, you need to get all memory fragments (Completing Elder influenced maps with purple circles around them), defeat The Shaper's Guardians and The Shaper and then let the elder influence the 4 Shaper guardian maps. If you see a visible Shaper influence on the Shaper Guardians, defeat them and let the Elder influence take over.
+        Once the Elder has influence over each of the Shaper Guardians, the Elder will take over the Atlas Symbol at the middle of your atlas. From then you can access the Uber Elder by using the Shaper's 4 Guardian fragments, which is the same way you access The Shaper's realm.
         The Uber Elder fight is the Shaper fight combined with the Elder fight, meaning you will need to fight the Shaper and the Elder at the same time. This is the somewhat final boss of the game and requires a lot of damage and maneuverability to beat. </tips>
       <linktitle>Path of Exile Zana Quest </linktitle>
       <link>https://pathofexile.gamepedia.com/The_Shaper_(quest)</link>       
@@ -810,8 +800,8 @@
        <Description >Complete Maps with a total of 75,000% Item Quantity from modifiers and additional sources, such as Sacrifice Fragments. This does not include any quantity bonuses from your items or party. </Description> 
        <numobj> 0 </numobj>
        <tips> When you make a map magic or rare, it gains boosts to stats such as item rarity, monster pack size and item quantity. You need to run a very large amount of rare maps in order to complete this challenge.
-        Using alchemy orbs on white maps to make them rare will usually give a very large boost to item quantity, while running unidentified maps will add an additional 30% item quantity to the map. Maps can drop 
-        rare and unidentified or made unidentified when a vaal orb is used on them. Sacrifice fragments that drop from corrupted unique bosses and vaal side areas as well as mortal fragments that drop from queen Atziri can also be put in the map device for a 5% or 10% quantity boost respectively.  </tips>
+        Using alchemy orbs on white maps to make them rare will usually give a very large boost to item quantity, while running unidentified maps will add an additional 30% item quantity to the map. 
+        Maps can drop rare and unidentified or made unidentified when a vaal orb is used on them. Sacrifice fragments that drop from corrupted unique bosses and vaal side areas as well as mortal fragments that drop from queen Atziri can also be put in the map device for a 5% or 10% quantity boost respectively.  </tips>
       <linktitle>Path of Exile High Quantity Maps</linktitle>
       <link>https://www.pathofexile.com/trade/search/Synthesis/mBdWBzS6</link>       
     </challenge>
@@ -827,6 +817,10 @@
         <objectives> Complete your Syndicate Safehouses x40 </objectives>
         <objectives> Complete Distant Memories which contain a Boss Encounter or Fractured Laboratories x100 </objectives>
        <tips> The best bet to get this challenge is to do the Endgame Labyrinth chests, Beast Captures, Syndicate Safehouses and Boss Encounters or Fractured Laboratories, which are apart of other challenges before this one (Lab, Bestiary, Betrayal and Synthesis).
+              For the Labyrinth, a fast character and poelab is advised because you'll want to complete the labyrinth as fast as possible. Check poelab.com for the current layout of the day and if it's efficient to run then do as much as you can. You can potentially open 10 chests in the final room of the labyrinth so that would equate to about 50 runs.
+              Using Bestiary Scarabs will allow you to spawn more beasts in your map for a faster completion of the capture of 500 beasts. Otherwise, completing the Bestiary atlas objective when it appears on your atlas and running as many maps as possible are your best bet to completing this portion of the challenge.
+              After the 3.6.2 patch, spawning Syndicate safehouses as well as the mastermind are much easier, making this part of the challenge much more attainable.
+              As Synthesis is the current league it will be easier to spawn more boss encounters through the methods that were used for the cortex and other synthesis boss encounters.
               These grinds are not too difficult but do take extremely long times to complete, and are often only completed by very devoted Path of Exile players. </tips>
       <linktitle>Poelab Guides</linktitle>
       <link>https://www.poelab.com/guides/</link>       
