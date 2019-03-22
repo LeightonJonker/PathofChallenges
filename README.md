@@ -1,4 +1,4 @@
-### Path of Challenges
+### Path of Challenges: The Path of Exile Synthesis Challenge League Helper and Guide
 
 
 ## Hello and Welcome to Path of Challenges!
