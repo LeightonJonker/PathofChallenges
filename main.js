@@ -19,7 +19,7 @@ app.on('ready', function(){
         height: 1000,
         show: false
     });
-    mainWindow.setIcon('assets/icons/win/PoCIcon.png');
+    // mainWindow.setIcon('assets/icons/win/icon.png');
     // load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, "mainWindow.html"),
